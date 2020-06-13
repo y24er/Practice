@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#name,
+			#position {
+				margin: 10px;
+				font-family: fantasy;
+				font-weight: bold;
+				font-size: 24px;
+			}
+
+			#basic {
+				margin: 30px 40px;
+				width: 300px;
+			}
+
+			img {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+			}
+
+			#photo {
+				float: right;
+				margin: 10px 200px;
+			}
+
+			#top {
+				overflow: hidden;
+			}
+
+			.text {
+				font-weight: bold;
+				padding: 20px 0 10px 10px;
+			}
+
+			hr {
+				height: 2px;
+				border: none;
+				background-color: white;
+				margin: 0px 10px;
+			}
+
+			.project {
+				margin: 20px 20px;
+			}
+
+			.content {
+				margin-left: 30px;
+			}
+
+			.title {
+				font-weight: 500;
+				font-size: 16px;
+			}
+			
+			#left {
+				margin-right: 500px;
+				margin-left: 20px;
+			}
+
+			#skills {
+				float: right;
+				width: 500px;
+			}
+
+			#center,
+			#bottom {
+				background: #F8F8FF;
+			}
+
+			#center {
+				margin-top: 20px;
+			}
+
+			#skill-list {
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+
+			progress {
+				width: 300px;
+				margin-top: 5px;
+			}
+
+			#projectExperience {
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="top">
+			<div id="photo">
+				<img src="images/picture.png" alt="头像"/>
+			</div>
+			<div id="basic">
+				<div id="name">黄静云</div>
+				<div id="position">测试工程师</div>
+			</div>
+		</div>
+		<div id="center">
+			<div id="right">
+				<div>
+					<div id="skills">
+						<div class="text">技能列表</div>
+						<hr>
+						<div id="skill-list">
+							<table>
+								<tr>
+									<td><label>测试理论：</label></td>
+									<td><progress value="100" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>测试方法：</label></td>
+									<td><progress value="80" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>DB：</label></td>
+									<td><progress value="80" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>Java：</label></td>
+									<td><progress value="80" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>Selenum：</label></td>
+									<td><progress value="70" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>UFT：</label></td>
+									<td><progress value="70" max="100"></progress></td>
+								</tr>
+								<tr>
+									<td><label>LoadRunner：</label></td>
+									<td><progress value="70" max="100"></progress></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="left">
+				<div id="basicInformation">
+					<div class="text">个人基本信息</div>
+					<hr>
+					<table cellspacing="10px">
+						<tr>
+							<th>中文名：</th>
+							<td>黄静云</td>
+						</tr>
+						<tr>
+							<th>英文名：</th>
+							<td>Jessie Huang</td>
+						</tr>
+						<tr>
+							<th>电子邮箱：</th>
+							<td>jessie_24@outlook.com</td>
+						</tr>
+						<tr>
+							<th>联系电话：</th>
+							<td>13138134572</td>
+						</tr>
+					</table>
+				</div>
+				<div id="educationInformation">
+					<div class="text">教育基本信息</div>
+					<hr>
+					<table cellspacing="15px">
+						<tr>
+							<td>2016.09至2020.06</td>
+							<td>北京理工大学珠海学院</td>
+							<td>软件工程(本科)</td>
+						</tr>
+						<tr>
+							<td>GPA:3.89/5.0(专业前5%)</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<div id="projectExperience">
+				<div class="text">项目经历</div>
+				<hr>
+				<div class="project">
+					<div class="title">旅游预订系统——2019.03~2019.06——开发、测试人员</div>
+					<div class="content">
+						· 该项目使用Java+SSH框架，SQL Server数据库等技术，供旅行社发布旅行路线，用户预订旅游路线<br />
+						· 负责路线发布和下单模块的开发。<br />
+						· 分析测试需求，设计功能测试用例，执行测试用例，使用 QC 平台进行用例的管理和 Bug 的跟踪管理，完成相应测试报告的编写。
+					</div>
+				</div>
+				<div class="project">
+					<div class="title">旅游预订系统——2019.03~2019.06——开发、测试人员</div>
+					<div class="content">
+						· 该项目使用Java+SSH框架，SQL Server数据库等技术，供旅行社发布旅行路线，用户预订旅游路线<br />
+						· 负责路线发布和下单模块的开发。<br />
+						· 分析测试需求，设计功能测试用例，执行测试用例，使用 QC 平台进行用例的管理和 Bug 的跟踪管理，完成相应测试报告的编写。
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
