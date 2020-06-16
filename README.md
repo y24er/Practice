@@ -1,4 +1,5 @@
 # Practice
 Practice
-iresume.html为个人简历页
-index.js为js-String的编程题
+resume.html为个人简历页
+index_string.js为js-String的编程题
+index_array.js为js-Array的编程题
